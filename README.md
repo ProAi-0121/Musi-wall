@@ -30,7 +30,7 @@ Make sure you have Python installed, then run:
 
 ### 2️⃣ Run Spoti Wall
 ```bash
-python Spoti-Wall.py
+python Musi-Wall.py
 ```
 
 ---
@@ -44,9 +44,9 @@ python -m PyInstaller --onefile --windowed \
     --add-data "font3.ttf;." \
     --add-data "icon.ico;." \
     --add-data "moon.png;." \
-    --icon=icon.ico Spoti-Wall.py
+    --icon=icon.ico Musi-Wall.py
 ```
-This will generate a `Spoti-Wall.exe` file inside the folder `dist`.
+This will generate a `Musi-Wall.exe` file inside the folder `dist`.
 
 ---
 
